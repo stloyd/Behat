@@ -1,5 +1,7 @@
 <?php
 
+/** @noinspection PhpUnhandledExceptionInspection */
+
 namespace Behat\Tests\Testwork\Argument;
 
 use Behat\Testwork\Argument\MixedArgumentOrganiser;
