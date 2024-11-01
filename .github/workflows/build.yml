@@ -144,7 +144,7 @@ jobs:
           composer update --no-dev -o
 
       - name: Build the PHAR
-        run: box compile
+        run: composer build:phar
 
       - name: cache artifact
         uses: actions/upload-artifact@v4
